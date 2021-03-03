@@ -19,29 +19,29 @@ class Patterns{
        
        OUTPUT
        innerCount  outerCount     innerCount<=outerCount  
-            1          1                    1<=1 true            *
+            1          1                    1<=1 true            
             2		   1					2<=1 false
 
-            1          2					1<=2 true			 *
-            2          2					2<=2 true			 * *		
+            1          2					1<=2 true			 
+            2          2					2<=2 true			  		
     	    3          2                    3<=2 false
             
-            1          3                    1<=3 true            *
-            2		   3					2<=3 true            * *
-            3		   3					3<=3 true			 * * *
+            1          3                    1<=3 true             
+            2		   3					2<=3 true            
+            3		   3					3<=3 true			  
             4          3                    4<=3 false
 
-            1          4                    1<=4 true            *
-            2		   4					2<=4 true            * *
-            3		   4					3<=4 true			 * * *
-            4          4                    4<=4 true            * * * *
+            1          4                    1<=4 true            
+            2		   4					2<=4 true             
+            3		   4					3<=4 true			  
+            4          4                    4<=4 true            
             5          4					5<=4 false
 
-            1          5                    1<=5 true            *
-            2		   5					2<=5 true            * *
-            3		   5					3<=5 true			 * * *
-            4          5                    4<=5 true            * * * *
-            5		   5					5<=5 true			 * * * * *
+            1          5                    1<=5 true            
+            2		   5					2<=5 true            
+            3		   5					3<=5 true			  
+            4          5                    4<=5 true             
+            5		   5					5<=5 true			 
             6          5                    6<=5 false
             
  
